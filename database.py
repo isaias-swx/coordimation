@@ -4,10 +4,10 @@ def conectar():
     try:
         connection = psycopg2.connect(
             user="postgres",
-            password="123",
-            host="localhost",
+            password="adaf@#swxdb",
+            host="191.101.71.24",
             port="5432",
-            database="sistemas-local"
+            database="sistemas"
         )
 
         return connection
